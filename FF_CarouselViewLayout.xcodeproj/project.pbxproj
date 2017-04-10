@@ -13,6 +13,7 @@
 		18AABDD81E9B8CCD00502322 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AABDD61E9B8CCD00502322 /* Main.storyboard */; };
 		18AABDDA1E9B8CCD00502322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AABDD91E9B8CCD00502322 /* Assets.xcassets */; };
 		18AABDDD1E9B8CCD00502322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AABDDB1E9B8CCD00502322 /* LaunchScreen.storyboard */; };
+		18AABDE71E9B8CD300502322 /* HJCarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AABDE61E9B8CD300502322 /* HJCarouselViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18AABDD91E9B8CCD00502322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AABDDC1E9B8CCD00502322 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AABDDE1E9B8CCD00502322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AABDE51E9B8CD300502322 /* HJCarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCarouselViewLayout.h; sourceTree = "<group>"; };
+		18AABDE61E9B8CD300502322 /* HJCarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCarouselViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		18AABDCC1E9B8CCD00502322 /* FF_CarouselViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				18AABDE41E9B8CD300502322 /* HJCarouselViewLayout */,
 				18AABDD01E9B8CCD00502322 /* AppDelegate.h */,
 				18AABDD11E9B8CCD00502322 /* AppDelegate.m */,
 				18AABDD31E9B8CCD00502322 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				18AABDCE1E9B8CCD00502322 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18AABDE41E9B8CD300502322 /* HJCarouselViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				18AABDE51E9B8CD300502322 /* HJCarouselViewLayout.h */,
+				18AABDE61E9B8CD300502322 /* HJCarouselViewLayout.m */,
+			);
+			path = HJCarouselViewLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				18AABDD51E9B8CCD00502322 /* ViewController.m in Sources */,
 				18AABDD21E9B8CCD00502322 /* AppDelegate.m in Sources */,
+				18AABDE71E9B8CD300502322 /* HJCarouselViewLayout.m in Sources */,
 				18AABDCF1E9B8CCD00502322 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
